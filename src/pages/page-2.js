@@ -5,14 +5,14 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 
-export default function App() {
+/*export default function App() {
   const [isActive, setActive] = useState("false");
 
   const handleToggle = () => {
     setActive(!isActive);
   };
   return (isActive);
-}
+} */
 
 const SecondPage = () => (
   <Layout>
