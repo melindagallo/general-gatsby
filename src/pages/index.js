@@ -21,7 +21,7 @@ const IndexPage = () => (
     />
     <p>
 <video width="500">
-  <source src="../images/hero.mp4" type="video/mp4">
+  <source src="../images/hero.mp4" type="video/mp4" />
     No video
 </video>
 
