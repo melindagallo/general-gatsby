@@ -3,7 +3,10 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
- const currentPath= window.location.pathname
+ 
+ if (window.location.pathname==='/') {
+ currentPath="INDEX"
+}
  
   <header
     style={{
