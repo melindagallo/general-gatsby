@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}{window.location.pathname}
+          {siteTitle}{this.location.pathname}
         </Link>
       </h1>
     </div>
