@@ -3,11 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
- 
- if (window.location.pathname==='/') {
- currentPath="INDEX"
-}
- 
+  
   <header
     style={{
       background: `rebeccapurple`,
@@ -29,7 +25,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}{currentPath}
+          {siteTitle}{window.location.pathname}
         </Link>
       </h1>
     </div>
